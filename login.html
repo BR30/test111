@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+    <style type="text/css">
+
+    </style>
+    <link rel="stylesheet" href="/www/css/style.css">
+</head>
+<body>  
+    <div class='all_div'>
+        <form class="form-horizontal" action="http://192.168.3.11:3000/checklogin" method='post'>
+            <span class="heading">用户登录</span>
+            <div class="form-group">
+                <input type="text" class="form-control" id="username" name="username" placeholder="请输入您的账号">
+            </div>
+
+            <div class="form-group help">
+            <input type="password" class="form-control" id="password" name="password" placeholder="请输入您的密码">
+            <a href="#" class="fa fa-question-circle"></a>
+            </div>
+            
+            <div class="form-group">
+                <input type="submit" value="登录" class="btn btn-default"></input>
+            </div>
+            
+        </form>
+    </div>    
+</body>
+</html>
